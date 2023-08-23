@@ -1,10 +1,10 @@
-import LastUpdate from "./components/LastUpdate";
+import ShowDate from "./ShowDate";
 
 const Header = () => {
     return (
       <div>
         <h1>My Todo List</h1>
-        <LastUpdate />
+        <ShowDate />
       </div>
     )
   }
