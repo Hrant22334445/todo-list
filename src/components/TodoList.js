@@ -1,9 +1,10 @@
+import Li1 from "./TodoListItem";
+
 const TodList = () => {
     return (
-    <ul>
-    <li>Learn JS</li>
-    <li>Learn React</li>
-  </ul>
+    <div>
+      <Li1 />
+    </div>
     );
   }
 

@@ -1,4 +1,4 @@
-const Li1 = () => {
+const TodoListItem = () => {
     return (
         <ul>
             <li>Learn JS</li>
@@ -7,4 +7,4 @@ const Li1 = () => {
     )
 }
 
-export default Li1;
+export default TodoListItem;
