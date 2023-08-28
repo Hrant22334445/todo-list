@@ -1,9 +1,10 @@
-const TodoListItem = () => {
+const TodoListItem = ({text, important}) => {
+    const style = {
+        color: important ? "red" : "black"
+    }
+
     return (
-        <ul>
-            <li>Learn JS</li>
-            <li>Learn React</li>
-        </ul>
+           <li style={style}>{text}</li>
     )
 }
 

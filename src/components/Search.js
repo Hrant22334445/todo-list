@@ -1,5 +1,10 @@
+import Button from "./Buton";
+
 const Search = () => {
-    return <input type='text' placeholder='Type for search...' />
+    return <div>
+      <input type='text' placeholder='Type for search...' />
+      <Button />
+      </div>
   }
 
   export default Search;
