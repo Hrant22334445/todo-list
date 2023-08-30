@@ -1,0 +1,26 @@
+.add {
+    padding: 10px 10px;
+}
+
+.add input {
+    padding: 5px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.add button {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    width: 20%;
+    background-color: #25458b;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.add button:hover {
+    background-color: #1a2e5b;
+}
