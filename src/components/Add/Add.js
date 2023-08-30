@@ -1,9 +1,9 @@
-import ButtonAdd from "./ButtonAdd";
+import './add.css';
 
 const Add = () => {
     return <div>
       <input type='text' placeholder='Type to add...' />
-      <ButtonAdd />
+      <button>Add item</button>
       </div>
   }
 
